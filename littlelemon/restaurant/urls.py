@@ -4,7 +4,7 @@ from .views import sayHello, index
 
 urlpatterns = [
     path('', index, name='index'),
-    path('/hello', sayHello, name='sayHello'),
+    path('hello', sayHello, name='sayHello'),
 ]
 
 

@@ -1,10 +1,11 @@
 from django.contrib import admin
 from django.urls import path
-from .views import sayHello, index
+from .views import index, MenuItemView, SingleMenuItemView
 
 urlpatterns = [
     path('', index, name='index'),
-    path('hello', sayHello, name='sayHello'),
+    path('menu', MenuItemView.as_view()),
+    path('menu/<int:pk>', SingleMenuItemView.as_view())
 ]
 
 

@@ -33,6 +33,6 @@ six==1.16.0
 social-auth-app-django==5.4.0
 social-auth-core==4.5.3
 sqlparse==0.4.4
-urllib3==2.2.1
+urllib3==2.2.2
 virtualenv==20.25.0
 Werkzeug==2.3.4
